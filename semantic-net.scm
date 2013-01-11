@@ -25,7 +25,7 @@
 (define hybrid-net
   (list
    '(Insight Volt Prius Leaf Car Hybrid-Car ICE-Car Assisted-Electric Electri-Car Full-Hybrid Series-Hybrid Parallel-Hybrid Mild-Hybrid
-             HP0 HP20 HP30 HP100 HP110 HP120) ; aici constantele (cu litera mare) - concepte, instante, si alte constante (e.g. puteri, scrise ca HP30) - TODO
+             HP0 HP20 HP30 HP100 HP110 HP120) ; aici constantele (cu litera mare) - concepte, instante, si alte constante (e.g. puteri, scrise ca HP30)
    '((ISA . 2) (AKO . 2)
                (Attr-ICE-power . 2) (Attr-electric-power . 2)) ; predicate si numar de argumente
    '() ; UNUSED
