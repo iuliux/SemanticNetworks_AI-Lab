@@ -125,7 +125,7 @@
                                                          net))
                      )
          (sorted-cs (sort candidates
-                          (λ (x y) (< (cadr x) (cadr x)))))
+                          (λ (x y) (< (cadr x) (cadr y)))))
          (min-infer-distance (and (not (empty? sorted-cs))
                                   (cadar sorted-cs)))
          )
